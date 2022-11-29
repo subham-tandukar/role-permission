@@ -4,6 +4,7 @@ const app = express();
 const mongoose = require("mongoose");
 require("./db/conn");
 const users = require("./models/userSchema");
+const roles = require("./models/roleSchema");
 const cors = require("cors");
 const router = require("./routes/router");
 
